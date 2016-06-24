@@ -1427,7 +1427,7 @@ and dependencies (minified).
 						}
 					}
 				}
-			}).bind("mouseup."+namespace+" dragend."+namespace,function(e){
+			}).bind("mouseup."+namespace,function(e){
 				if(touchable){return;}
 				if(action){action=0; _seq("off",null);}
 				touchActive=false;
